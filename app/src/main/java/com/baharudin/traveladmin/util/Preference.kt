@@ -1,4 +1,4 @@
-package com.baharudin.traveladmin
+package com.baharudin.traveladmin.util
 
 import android.content.Context
 import android.content.SharedPreferences

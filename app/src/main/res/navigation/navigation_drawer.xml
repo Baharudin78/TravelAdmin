@@ -3,13 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_drawer"
-    app:startDestination="@id/listOrderFragment">
+    app:startDestination="@id/dashboardFragment">
 
     <fragment
         android:id="@+id/dashboardFragment"
         android:name="com.baharudin.traveladmin.ui.fragment.DashboardFragment"
         android:label="fragment_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_listOrderFragment"
+            app:destination="@id/listOrderFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_akunFragment"
+            app:destination="@id/akunFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_sopirFragment"
+            app:destination="@id/sopirFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_armadaFragment"
+            app:destination="@id/armadaFragment" />
+    </fragment>
     <fragment
         android:id="@+id/akunFragment"
         android:name="com.baharudin.traveladmin.ui.fragment.AkunFragment"
@@ -25,4 +38,9 @@
         android:name="com.baharudin.traveladmin.ui.fragment.SopirFragment"
         android:label="fragment_sopir"
         tools:layout="@layout/fragment_sopir" />
+    <fragment
+        android:id="@+id/armadaFragment"
+        android:name="com.baharudin.traveladmin.ui.fragment.ArmadaFragment"
+        android:label="fragment_armada"
+        tools:layout="@layout/fragment_armada" />
 </navigation>

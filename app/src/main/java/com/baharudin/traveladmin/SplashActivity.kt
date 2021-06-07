@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.baharudin.traveladmin.databinding.ActivitySplashBinding
+import com.baharudin.traveladmin.util.Preference
 
 
 const val TIMING_SPLASH = 1000L

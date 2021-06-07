@@ -8,4 +8,17 @@
     <string name="armada">Armada</string>
     <string name="order">Order</string>
     <string name="data_sopir">Data Sopir</string>
+    <string name="hai">HAI,</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="bandung">Bandung</string>
+    <string name="bekasi">Bekasi</string>
+    <string name="tangerang">Tangerang</string>
+    <string name="batang">Batang</string>
+    <string name="semarang">Semarang</string>
+    <string name="pekalongan">Pekalongan</string>
+    <string name="cirebon">Cirebon</string>
+    <string name="jogja">Jogja</string>
+    <string name="sukabumi">Sukabumi</string>
+    <string name="malang">Malang</string>
+    <string name="surabaya">Surabaya</string>
 </resources>

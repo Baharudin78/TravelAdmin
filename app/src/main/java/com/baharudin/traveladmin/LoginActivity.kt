@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Toast
 import com.baharudin.traveladmin.data.Admin
 import com.baharudin.traveladmin.databinding.ActivityLoginBinding
+import com.baharudin.traveladmin.util.Preference
 import com.google.firebase.database.*
 
 class LoginActivity : AppCompatActivity() {
