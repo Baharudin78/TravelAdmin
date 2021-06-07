@@ -5,5 +5,7 @@
     <string name="password">Password</string>
     <string name="todo">TODO</string>
     <string name="akun">Akun</string>
-    <string name="dashboard">Dashboard</string>
+    <string name="armada">Armada</string>
+    <string name="order">Order</string>
+    <string name="data_sopir">Data Sopir</string>
 </resources>

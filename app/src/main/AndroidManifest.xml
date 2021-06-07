@@ -13,8 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelAdmin">
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".SplashActivity">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.TravelAdmin.NoActionBar" />
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.TravelAdmin.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

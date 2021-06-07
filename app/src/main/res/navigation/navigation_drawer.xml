@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_drawer"
-    app:startDestination="@id/dashboardFragment">
+    app:startDestination="@id/listOrderFragment">
 
     <fragment
         android:id="@+id/dashboardFragment"
@@ -15,4 +15,14 @@
         android:name="com.baharudin.traveladmin.ui.fragment.AkunFragment"
         android:label="fragment_akun"
         tools:layout="@layout/fragment_akun" />
+    <fragment
+        android:id="@+id/listOrderFragment"
+        android:name="com.baharudin.traveladmin.ui.fragment.ListOrderFragment"
+        android:label="ListOrderFragment"
+        tools:layout="@layout/fragment_list_order" />
+    <fragment
+        android:id="@+id/sopirFragment"
+        android:name="com.baharudin.traveladmin.ui.fragment.SopirFragment"
+        android:label="fragment_sopir"
+        tools:layout="@layout/fragment_sopir" />
 </navigation>

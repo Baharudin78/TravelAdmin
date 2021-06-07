@@ -14,10 +14,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.baharudin.traveladmin.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class   MainActivity : AppCompatActivity() {
 
     private lateinit var navController: NavController
-    private lateinit var drawerLayout : DrawerLayout
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding : ActivityMainBinding
     private lateinit var listener : NavController.OnDestinationChangedListener
@@ -29,11 +28,9 @@ class MainActivity : AppCompatActivity() {
 
         val navigation = supportFragmentManager.findFragmentById(R.id.fragment2) as NavHostFragment
         navController = navigation.findNavController()
-        drawerLayout = findViewById(R.id.drawer_layout)
-        appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
-
-        binding.navigationView.setupWithNavController(navController)
-        setupActionBarWithNavController(navController, appBarConfiguration)
+        binding.apply {
+            btNav.setupWithNavController(navController)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {
