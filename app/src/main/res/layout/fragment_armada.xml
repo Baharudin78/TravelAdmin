@@ -33,6 +33,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/iv_Jakarta"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -51,6 +52,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_bandung"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -69,6 +71,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_bekasi"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -87,6 +90,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_tangerang"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:layout_width="wrap_content"
@@ -118,6 +122,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/iv_batang"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -136,6 +141,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_semarang"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -154,6 +160,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_pekalongan"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -172,6 +179,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_cirebon"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -202,6 +210,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/iv_sukabumi"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -220,6 +229,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_jogja"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -238,6 +248,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_malang"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -256,6 +267,7 @@
 
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/iv_surabaya"
                     android:gravity="center"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"

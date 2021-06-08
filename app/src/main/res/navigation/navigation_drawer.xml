@@ -42,5 +42,18 @@
         android:id="@+id/armadaFragment"
         android:name="com.baharudin.traveladmin.ui.fragment.ArmadaFragment"
         android:label="fragment_armada"
-        tools:layout="@layout/fragment_armada" />
+        tools:layout="@layout/fragment_armada" >
+        <action
+            android:id="@+id/action_armadaFragment_to_listArmadaFragment"
+            app:destination="@id/listArmadaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listArmadaFragment"
+        android:name="com.baharudin.traveladmin.ui.fragment.ListArmadaFragment"
+        android:label="fragment_list_armada"
+        tools:layout="@layout/fragment_list_armada" >
+        <argument
+            android:name="Travels"
+            app:argType="com.baharudin.traveladmin.data.Travel" />
+    </fragment>
 </navigation>
