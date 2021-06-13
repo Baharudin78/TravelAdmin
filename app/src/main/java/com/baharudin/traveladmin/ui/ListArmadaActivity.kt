@@ -1,4 +1,4 @@
-package com.baharudin.traveladmin
+package com.baharudin.traveladmin.ui
 
 import android.os.Bundle
 import android.view.View
@@ -21,15 +21,13 @@ class ListArmadaActivity : AppCompatActivity() {
         binding = ActivityListArmadaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // mengambil data dari intent
-        // mengambil data dari intent
         val bundle = intent.extras
-        val lokasiTiket = bundle!!.getString("lokasi_armada")
+        val lokasiBus = bundle!!.getString("lokasi_armada")
 
-        binding.tvLokasi.text = lokasiTiket
+        binding.tvLokasi.text = lokasiBus
 
         mDatabaseRef = FirebaseDatabase.getInstance().getReference("Destination")
-            .child(lokasiTiket!!)
+            .child(lokasiBus!!)
             .child("Travels")
 
         setupRecycleview()

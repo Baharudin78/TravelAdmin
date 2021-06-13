@@ -1,4 +1,4 @@
-package com.baharudin.traveladmin
+package com.baharudin.traveladmin.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.baharudin.traveladmin.databinding.ActivitySplashBinding
+import com.baharudin.traveladmin.ui.LoginActivity
+import com.baharudin.traveladmin.ui.MainActivity
 import com.baharudin.traveladmin.util.Preference
 
 
@@ -30,13 +32,13 @@ class SplashActivity : AppCompatActivity() {
             runnable
         }else {
             finishAffinity()
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
         }
 
     }
     private val runnable = Runnable {
         finishAffinity()
-        startActivity(Intent(this,LoginActivity::class.java))
+        startActivity(Intent(this, LoginActivity::class.java))
     }
 
     override fun onResume() {

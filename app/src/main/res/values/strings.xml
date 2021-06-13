@@ -21,4 +21,7 @@
     <string name="sukabumi">Sukabumi</string>
     <string name="malang">Malang</string>
     <string name="surabaya">Surabaya</string>
+    <string name="daftar_order">Daftar Order</string>
+    <string name="kota">Kota</string>
+    <string name="tiket_kosong">Ups, Tiket untuk ke kota ini masih kosong</string>
 </resources>

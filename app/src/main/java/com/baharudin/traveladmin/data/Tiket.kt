@@ -5,7 +5,7 @@ import kotlinx.parcelize.Parcelize
 
 
 @Parcelize
-data class Users (
+data class Tiket (
     var username : String = "",
     var tujuanAwal : String = "",
     var tujaanAkhir : String = "",
