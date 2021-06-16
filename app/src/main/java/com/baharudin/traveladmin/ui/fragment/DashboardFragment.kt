@@ -20,7 +20,7 @@ class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
 
         preference = Preference(requireContext())
 
-        getNameAdmin()
+        binding.tvNamaAdmin.text = preference.getData("username")
 
 
         binding.ivArmada.setOnClickListener {
@@ -32,9 +32,10 @@ class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
         binding.ivSopir.setOnClickListener {
             findNavController().navigate(R.id.action_dashboardFragment_to_sopirFragment)
         }
+        binding.ivResto.setOnClickListener {
+            findNavController().navigate(R.id.action_dashboardFragment_to_restoFragment)
+        }
 
     }
-    private fun getNameAdmin() {
-        binding.tvNamaAdmin.text = preference.getData("username")
-    }
+
 }

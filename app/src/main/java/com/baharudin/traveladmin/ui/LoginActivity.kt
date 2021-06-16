@@ -53,7 +53,7 @@ class LoginActivity : AppCompatActivity() {
                 } else {
                     if (admin.password == iPassword) {
                         preference.setData("username", admin.username)
-                        preference.setData("password", admin.username)
+                        preference.setData("password", admin.password)
                         preference.setData("status", "1")
                         finishAffinity()
                         startActivity(Intent(this@LoginActivity, MainActivity::class.java))

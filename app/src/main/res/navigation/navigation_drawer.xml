@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_dashboardFragment_to_armadaFragment"
             app:destination="@id/armadaFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_restoFragment"
+            app:destination="@id/restoFragment" />
     </fragment>
     <fragment
         android:id="@+id/akunFragment"
@@ -43,4 +46,9 @@
         android:name="com.baharudin.traveladmin.ui.fragment.ArmadaFragment"
         android:label="fragment_armada"
         tools:layout="@layout/fragment_armada" />
+    <fragment
+        android:id="@+id/restoFragment"
+        android:name="com.baharudin.traveladmin.ui.fragment.RestoFragment"
+        android:label="fragment_resto"
+        tools:layout="@layout/fragment_resto" />
 </navigation>

@@ -1,5 +1,6 @@
 package com.baharudin.traveladmin.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -52,7 +53,12 @@ class DetailListOrderActivity : AppCompatActivity() {
                     dataList.add(tiket!!)
                 }
                 hideProgressBar()
-                binding.rvDaftarTiketUser.adapter = TiketAdapter(dataList)
+                hideIcon()
+                binding.rvDaftarTiketUser.adapter = TiketAdapter(dataList) {
+                    val gotoTiketUser = Intent(this@DetailListOrderActivity,DetailTiketUserActivity::class.java)
+                    gotoTiketUser.putExtra("tiket_user",it)
+                    startActivity(gotoTiketUser)
+                }
 
             }
 

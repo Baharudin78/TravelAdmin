@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.baharudin.traveladmin.data.Tiket
 import com.baharudin.traveladmin.databinding.ItemOrderListBinding
 
-class TiketAdapter(private var data : List<Tiket>) : RecyclerView.Adapter<TiketAdapter.TiketHolder>() {
+class TiketAdapter(private var data : List<Tiket>, private var listener : (Tiket) -> Unit) : RecyclerView.Adapter<TiketAdapter.TiketHolder>() {
 
     inner class TiketHolder(val binding : ItemOrderListBinding) :RecyclerView.ViewHolder(binding.root) {
 
@@ -21,6 +21,10 @@ class TiketAdapter(private var data : List<Tiket>) : RecyclerView.Adapter<TiketA
             tvTujuanAwal.text = data.tujuanAwal
             tvTujuanAkhir.text = data.tempatAwal
             tvTanggal.text = data.tanggal
+
+            itemView.setOnClickListener {
+                listener(data)
+            }
         }
 
     }

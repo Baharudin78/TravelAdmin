@@ -112,6 +112,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/ivResto"
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
@@ -120,7 +121,13 @@
                 <ImageView
                     android:layout_width="45dp"
                     android:layout_height="45dp"
-                    app:srcCompat="@drawable/ic_school_bus"/>
+                    app:srcCompat="@drawable/ic_fast_food"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/colorWhite"
+                    android:text="Resto"/>
 
             </LinearLayout>
         </LinearLayout>

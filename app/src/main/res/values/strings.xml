@@ -5,7 +5,6 @@
     <string name="password">Password</string>
     <string name="todo">TODO</string>
     <string name="akun">Akun</string>
-    <string name="armada">Armada</string>
     <string name="order">Order</string>
     <string name="data_sopir">Data Sopir</string>
     <string name="hai">HAI,</string>
@@ -24,4 +23,8 @@
     <string name="daftar_order">Daftar Order</string>
     <string name="kota">Kota</string>
     <string name="tiket_kosong">Ups, Tiket untuk ke kota ini masih kosong</string>
+    <string name="daftar_resto">Daftar Resto</string>
+    <string name="daftar_sopir">Daftar Sopir</string>
+    <string name="tambahkan">Tambahkan</string>
+    <string name="armada">Armada</string>
 </resources>

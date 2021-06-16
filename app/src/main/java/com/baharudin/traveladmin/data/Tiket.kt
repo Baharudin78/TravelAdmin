@@ -8,7 +8,7 @@ import kotlinx.parcelize.Parcelize
 data class Tiket (
     var username : String = "",
     var tujuanAwal : String = "",
-    var tujaanAkhir : String = "",
+    var tujuanAkhir : String = "",
     var tempatAwal : String = "",
     var tempatAkhir : String = "",
     var tanggal : String = "",
