@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelAdmin">
-        <activity android:name=".ui.TambahSopirActivity"></activity>
+        <activity android:name=".ui.TambahSopirActivity" />
         <activity android:name=".ui.TambahRestoActivity" />
         <activity android:name=".ui.DetailTiketUserActivity" />
         <activity android:name=".ui.DetailListOrderActivity" />

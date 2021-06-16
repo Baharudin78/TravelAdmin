@@ -2,6 +2,7 @@ package com.baharudin.traveladmin.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.baharudin.traveladmin.data.Tiket
 import com.baharudin.traveladmin.databinding.ActivityDetailTiketUserBinding
 
@@ -23,5 +24,13 @@ class DetailTiketUserActivity : AppCompatActivity() {
         binding.tvTanggal.text = data?.tanggal
         binding.tvTotal.text = data?.total
 
+        binding.btVerifikasi.setOnClickListener {
+            binding.btVerifikasi.visibility = View.INVISIBLE
+            showText()
+        }
     }
+    private fun showText() {
+        binding.textVerifikasi.visibility = View.VISIBLE
+    }
+
 }
