@@ -12,5 +12,5 @@ data class Tiket (
     var tempatAwal : String = "",
     var tempatAkhir : String = "",
     var tanggal : String = "",
-    var total : String = "",
+    var total : Long = 0L,
         ) : Parcelable

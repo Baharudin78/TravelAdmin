@@ -28,4 +28,7 @@
     <string name="tambahkan">Tambahkan</string>
     <string name="armada">Armada</string>
     <string name="verifikasi">Verifikasi</string>
+    <string name="hp">Hp : </string>
+    <string name="nama">Nama :</string>
+    <string name="masuk_sebagai_sopir">Masuk Sebagai Sopir</string>
 </resources>
